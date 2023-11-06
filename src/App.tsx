@@ -17,7 +17,7 @@ type TMessage = {
   message: string
 }
 
-const CHAT_ENDPOINT = "http://insurance-chatbot.us-east-2.elasticbeanstalk.com/api/chatbot/send-message";
+const CHAT_ENDPOINT = "https://carehub-aichatbot.ee-cognizantacademy.com/api/chatbot/send-message";
 
 function App() {
   const [messageInputValue, setMessageInputValue] = useState("")
